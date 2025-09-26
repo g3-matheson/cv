@@ -1,3 +1,6 @@
+*.png
+
+### LATEX:
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.log
