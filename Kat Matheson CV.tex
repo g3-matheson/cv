@@ -1,40 +1,17 @@
 \documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 
-\usepackage{amsmath}
-\usepackage[hmargin = 2cm, vmargin = 2cm]{geometry}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=blue,
-}
-
-\raggedbottom
-
-
-\usepackage{xcolor}
-\definecolor{charcoal}{RGB}{5, 5, 5}
-\definecolor{paper}{RGB}{212, 212, 203}
-\definecolor{forest}{RGB}{6, 26, 2}
-\definecolor{strawberry}{RGB}{232, 70, 70}
-\definecolor{tinged}{RGB}{247, 244, 240}
-\definecolor{myblue}{RGB}{33, 97, 217}
-\definecolor{mygreen}{RGB}{16, 133, 47}
-
-\newcommand{\mypagecolor}{paper}
-\pagecolor{paper} %% background
-\color{charcoal} %% font
+\usepackage{kat}
 
 \begin{document}
 
 \thispagestyle{empty}
 
 \begin{center}
-\textbf{\Large{Kat Matheson}} \\ \vspace{4pt}  438-526-7751 $\cdot$ g3.matheson@gmail.com $\cdot$ Montr\'eal, Qu\'{e}bec
+\textbf{\Large{Kat Matheson}} \hspace{2pt} \raisebox{-0.15\height}{\href{https://www.linkedin.com/in/kat-matheson-022847315/}{\includegraphics[scale = 0.07]{linkedin.png}}} \hspace{-6pt} \raisebox{-0.15\height}{\href{https://github.com/g3-matheson}{\includegraphics[scale = 0.3]{git.png}}}\\ 
+\vspace{4pt}  438--526--7751 $\cdot$ g3.matheson@gmail.com $\cdot$ Montr\'eal, Qu\'{e}bec
 \end{center}
 
-\vspace{12pt}
+\vspace{6pt}
 
 \textbf{\large{Education}}
 
@@ -44,7 +21,7 @@
 
 \textbf{(2017) BMath: Mathematical Finance} \hfill \textbf{University of Waterloo}
 
-\vspace{-8pt}
+\vspace{-6.5pt}
 \begin{itemize}
 \item Minor in Pure Mathematics.
 \end{itemize}
@@ -53,39 +30,45 @@
 
 \textbf{(2019) MMath: Statistics} \hfill \textbf{University of Waterloo}
 
-\vspace{-8pt}
+\vspace{-6pt}
 \begin{itemize}
 \item Thesis: On multiple random locations of stationary stochastic processes.
 \end{itemize}
 
 \vspace{-4pt}
 
-\textbf{(2019- 2021) PhD: Applied Mathematics (incomplete)} \hfill \textbf{University of Waterloo}
+\textbf{(2019--2021) PhD: Applied Mathematics (incomplete)} \hfill \textbf{University of Waterloo}
 
-\vspace{-8pt}
+\vspace{-6pt}
 \begin{itemize}
 \item Research topic: detecting, modeling and predicting self-similar patterns in data.
 \end{itemize}
 
 \vspace{-4pt}
 
-\textbf{(Jan 2024 -- Present) BCs: Computer Science (Games Option)} \hfill \textbf{Concordia University}
+\textbf{(Jan 2024--Present) BCs: Computer Science (Games Option)} \hfill \textbf{Concordia University}
 
-\vspace{-8pt}
+\vspace{-6pt}
 \begin{itemize}
-\item Coursework in C\texttt{++}, Java, Python.
+\item Graduating August 2026 \texttt{+} internship time.
+\vspace{-4pt}
+\item Integrated Path option, which grants ability to take graduate courses.
+\vspace{-4pt}
+\item Coursework in C\texttt{++}, C\texttt{\#}, Java, Python, Game Development, Graphics etc.
 \end{itemize}
 
-\vspace{12pt}
+\vspace{6pt}
 
 \textbf{\large{Skills}}
 \small \vspace{-4pt}
 \begin{itemize}
-\item C\texttt{\#} (WPF), C\texttt{++}, R, Java, Python (Pandas, PySpark), SQL, Tableau, Jira, Perforce, Git, Linux.
+\item Languages: C\texttt{\#}, C\texttt{++}, Rust, Java, Python, R, Bash, SQL.
+\vspace{-4pt}
+\item Frameworks/Software: Unity, Git, Linux, Perforce \& Swarm, Sharpmake, CMake, Jira, Confluence, \\ \textcolor{charcoal}{$\cdot$} \hspace{92pt} WPF, Tableau, VS (Code), Vim.
 \vspace{-4pt}
 \item Bilingual in French \& English.
 \vspace{-4pt}
-\item Excellent \& rigorous attention to detail.
+\item Excellent \& rigorous attention to detail. Extremely fast \& curious learner.
 \end{itemize}
 
 \vspace{12pt}
@@ -93,55 +76,55 @@
 \textbf{\large{Employment}}
 \small 
 
-\vspace{8pt}
+\vspace{6pt}
 
-\textbf{Beenox, Tools Programming Intern} \hfill \textbf{Jan 2025 -- Aug 2025}
+\textbf{Beenox, Tools Programming Intern} \hfill \textbf{Jan 2025--Aug 2025}
 \begin{itemize}
-\item Creating and maintaining features for C\texttt{\#} WPF tools used by the Call of Duty teams at large.
+\item Primarily worked on C\texttt{\#} WPF version control tool that had just been made mandatory across the entire Call of Duty core/engine pipeline: adding new features, refactoring/optimizing, fixing regressions.
 \vspace{-4pt}
-\item Assisting users with issues, bugs and miscellaneous inquiries.
+\item Added: mandatory fields validation per .yaml configs \& UX QoLs, syncing to Helix Swarm via web API, test builds tracking toolbar, tool usage telemetry design \& backend (used on other tools too) etc.
 \end{itemize}
 
 \vspace{4pt}
 
-\textbf{Ubisoft, Game Intelligence Analyst} \hfill \textbf{Jan 2021 -- Mar 2023}
+\textbf{Ubisoft, Game Intelligence Analyst} \hfill \textbf{Jan 2021--Mar 2023}
 \vspace{-4pt}
 \begin{itemize}
-\item Game analytics: activity, retention \& monetization; balancing and user test analysis; survey design \& analysis.
-\vspace{-14pt}
-\item ETL building, maintenance, restructuring, automation and quality assurance with Spark SQL, PySpark, Tableau, Git/Perforce, and internal custom tools.
+\item Game analytics: activity, retention \& monetization; user test analysis; survey design \& analysis.
+\vspace{-4pt}
+\item ETL building, maintenance, restructuring, automation and quality assurance.
 \vspace{-4pt}
 \item Custom pipelines for rigorous statistical analyses in R.
 \vspace{-4pt}
 \item Collaborations done in Agile environment using Jira.
 \vspace{-4pt}
-\item Principal analyst on Rainbow Six: Extraction from date of hire up to launch, then on Rainbow Six: Siege.
+\item Principal analyst on Rainbow Six: Extraction until launch, then on Rainbow Six: Siege.
 \end{itemize}
 
 \vspace{4pt}
 
-\textbf{University of Waterloo, Sessional Lecturer} \hfill \textbf{Sept -- Dec 2020}
+\textbf{University of Waterloo, Sessional Lecturer} \hfill \textbf{Sept 2020--Dec 2020}
 \vspace{-4pt}
 \begin{itemize}
-\item Teaching Calculus I for Honours Mathematics: delivering (in-person) lectures, developing lecture materials, creating and reviewing assignment, quiz and exam questions, helping students outside of class.
+\item Teaching Calculus I for Honours Mathematics (Math 137): lecturing, developing lecture materials, creating and reviewing assignment/quizzes/exams, helping students outside of class.
 \end{itemize}
 
 \vspace{4pt}
 
-\textbf{University of Waterloo, Teaching Assistant} \hfill \textbf{Sept 2017 -- Aug 2020}
+\textbf{University of Waterloo, Teaching Assistant} \hfill \textbf{Sept 2017--Aug 2020}
 \vspace{-4pt}
 \begin{itemize}
-\item Delivering weekly tutorials (on R coding, practical examples), marking assignments and exams, proctoring, holding office hours  for undergraduate math courses.
+\item Delivering weekly tutorials (e.g on R coding, practical examples), marking assignments and exams, proctoring, holding office hours for undergraduate math \& statistics courses.
 \vspace{-4pt}
-\item Head Teaching Assistant for 5 courses throughout 2017-2020: responsible for organizing and delegating tasks to the other teaching assistants.
+\item Head Teaching Assistant for 5 courses throughout 2017--2020: responsible for organizing and delegating tasks to the other teaching assistants in addition to above duties.
 \end{itemize}
 
 \vspace{4pt}
 
-\textbf{Self-Employed Tutor} \hfill \textbf{2008 -- 2020}
+\textbf{Self-Employed Tutor} \hfill \textbf{2008--Present}
 \vspace{-4pt}
 \begin{itemize}
-\item Private mathematics tutor for elementary, highschool, college and university students. Over 30 students taught, ranging from 4 months to upwards of 3 years each.
+\item Private mathematics tutor for elementary, highschool, college/cegep and university students. Over 30 students taught, ranging from 4 months to upwards of 3 years each.
 \end{itemize}
 
 
